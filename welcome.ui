@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>welcome</class>
+ <widget class="QMainWindow" name="welcome">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>739</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">Background-color: #696969;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>90</y>
+      <width>601</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font-family: Lucida Console;
+font-size: 25px;
+font-weight: bold;
+font-style: italic;
+color: #ffffff;
+</string>
+    </property>
+    <property name="text">
+     <string>Welcome To Book Recommendation System</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>250</y>
+      <width>281</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: #ffffff;
+background-color: #ff6347;
+Border-radius: 30px;
+font-size:30px
+}
+QPushButton:hover{
+color: #ffffff;
+background-color: #ff6347;
+Border-radius: 30px;
+background-color: #ff4500;
+font-weight: bold;
+}</string>
+    </property>
+    <property name="text">
+     <string>Let's get started</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
